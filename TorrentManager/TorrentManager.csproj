@@ -106,6 +106,7 @@
     <AppDesigner Include="Properties\" />
     <None Include="StrongKey.pfx">
       <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
