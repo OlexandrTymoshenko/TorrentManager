@@ -104,7 +104,9 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <AppDesigner Include="Properties\" />
-    <None Include="StrongKey.pfx" />
+    <None Include="StrongKey.pfx">
+      <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
