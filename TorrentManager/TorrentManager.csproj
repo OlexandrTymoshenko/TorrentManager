@@ -44,7 +44,7 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>StrongKey.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>VS_KEY_A973314E1CDF71C0.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -104,10 +104,7 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <AppDesigner Include="Properties\" />
-    <None Include="StrongKey.pfx">
-      <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <None Include="VS_KEY_A973314E1CDF71C0.snk" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
