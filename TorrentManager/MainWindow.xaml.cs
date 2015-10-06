@@ -24,6 +24,7 @@ namespace TorrentManager
         {
             InitializeComponent();
             Console.WriteLine();
+            Console.WriteLine();
         }
     }
 }
