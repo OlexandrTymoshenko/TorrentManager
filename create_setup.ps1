@@ -1,0 +1,1 @@
+.\packages\Tools.InnoSetup.5.5.6\tools\ISCC.exe TorrentManager.iss
