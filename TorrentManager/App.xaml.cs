@@ -13,5 +13,9 @@ namespace TorrentManager
     /// </summary>
     public partial class App : Application
     {
+        public override string ToString()
+        {
+            return ":)";
+        }
     }
 }
