@@ -23,8 +23,6 @@ namespace TorrentManager
         public MainWindow()
         {
             InitializeComponent();
-            Console.WriteLine();
-            Console.WriteLine();
         }
     }
 }
