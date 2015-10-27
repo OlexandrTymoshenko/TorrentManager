@@ -8,7 +8,7 @@ build:
   parallel: true
   verbosity: minimal
 after_build:
-- cmd: TorrentManager\packages\Tools.InnoSetup.5.5.6\tools\iscc TorrentManager.iss
+- ps: .\packages\Tools.InnoSetup.5.5.6\tools\ISCC.exe TorrentManager.iss
 artifacts:
 - path: TorrentManager\Bin\Release\
 deploy:
